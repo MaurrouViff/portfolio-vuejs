@@ -15,7 +15,7 @@
 
 
     </header>
-    <hr class="hr-gradient" >
+    <hr class="hr-gradient">
 
 
     <router-view></router-view>
@@ -68,10 +68,9 @@ body {
   cursor: pointer;
   font-size: 16px;
   text-decoration: none;
-
+  opacity: 0.8;
 }
 .link-button:hover {
-  text-decoration: underline;
   opacity: 1;
 }
 li {
