@@ -1,8 +1,20 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import router from './router'; // Importez votre configuration de routeur
+import { createRouter, createWebHashHistory } from 'vue-router';
 
-import './assets/main.css';
+// Importez vos composants
+import Accueil from './components/pages/Accueil.vue';
+import About from './components/pages/About.vue';
+
+const routes = [
+    { path: '/', component: Accueil },
+    { path: '/about', component: About },
+];
+
+const router = createRouter({
+    history: createWebHashHistory(),
+    routes,
+});
 
 const app = createApp(App);
 
