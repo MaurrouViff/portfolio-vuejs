@@ -10,6 +10,7 @@ import Langages from './components/pages/Langages.vue';
 
 const routes = [
     { path: '/', component: Accueil },
+    { path: '/accueil', component: Accueil },
     { path: '/about', component: About },
     { path: '/outils', component: Outils },
     { path: '/langages', component: Langages },
