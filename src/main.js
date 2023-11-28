@@ -2,13 +2,17 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import { createRouter, createWebHashHistory } from 'vue-router';
 
-// Importez vos composants
+// Liste des composants
 import Accueil from './components/pages/Accueil.vue';
 import About from './components/pages/About.vue';
+import Outils from './components/pages/Outils.vue';
+import Langages from './components/pages/Langages.vue';
 
 const routes = [
     { path: '/', component: Accueil },
     { path: '/about', component: About },
+    { path: '/outils', component: Outils },
+    { path: '/langages', component: Langages },
 ];
 
 const router = createRouter({
@@ -18,8 +22,8 @@ const router = createRouter({
 
 const app = createApp(App);
 
-// Utilisez le routeur dans votre application
+
 app.use(router);
 
-// Montez l'application sur l'élément avec l'ID 'app'
+
 app.mount('#app');
