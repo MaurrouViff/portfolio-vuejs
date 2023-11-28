@@ -1,23 +1,94 @@
 <template>
   <div>
-    <h1>My Vue.js App</h1>
+    <header>
+      <div class="gradient-policy">
+        <h1>Bienvenue sur mon portfolio !</h1>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item"><router-link to="/accueil" class="link-button">ACCUEIL</router-link></li>
+          <li class="nav-item"><router-link to="/langages" class="link-button">LANGAGES</router-link></li>
+          <li class="nav-item"><router-link to="/outils" class="link-button">OUTILS</router-link></li>
+          <li class="nav-item"><router-link to="/about" class="link-button">À PROPOS</router-link></li>
+        </ul>
+      </nav>
 
-    <!-- Utilisation de <router-link> pour naviguer entre les pages -->
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
-    <router-link to="/contact">Contact</router-link>
 
-    <!-- Utilisation de <router-view> pour afficher les composants de la page correspondante -->
+    </header>
+    <hr class="hr-gradient" >
+
+
     <router-view></router-view>
+
+
+
   </div>
 </template>
 
 <script>
 export default {
-  // Le composant App.vue peut rester vide s'il n'y a rien de spécifique à ajouter ici.
+
 };
 </script>
 
-<style scoped>
-/* Ajoutez des styles spécifiques au composant App.vue si nécessaire */
+<style>
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.gradient-policy {
+  font-size: 30px;
+  letter-spacing: -0.72px;
+  line-height: 1.3;
+  background: linear-gradient(45deg, #316aa4 33%, #7B6BB6 50%, #CE6CC9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hr-gradient {
+  height: 5px;
+  border: 0;
+  background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
+  margin: 20px auto;
+}
+.link-button {
+  background: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+.link-button:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+li {
+  list-style-type: none;
+}
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-right: 50px;
+}
 </style>
