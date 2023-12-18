@@ -20,7 +20,11 @@
         </div>
       </div>
     </section>
+    <hr class="hr-gradient">
+    <section class="second-section">
+      <div class="gradient-policy">Me contacter :</div>
 
+    </section>
   </div>
 </template>
 
@@ -37,14 +41,12 @@
 
 .features .feature {
   flex: 1 1 340px;
-  background-image: linear-gradient(135deg, #202121 24%, #2a2c2c 50%, #353838 79%, #515456 100%);
+  background: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
   padding: 25px 30px 35px 58px;
   margin: 0 8px 0 0;
-  opacity: 0.80;
 }
-.features .feature:hover {
-  opacity: 1;
-}
+
+
 .features .feature .feature-title {
   font-size: 16px;
   line-height: 1.6;
@@ -72,5 +74,15 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 90px;
+
+}
+.second-section {
+  min-height: 60vh;
+  padding-top: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+
 }
 </style>

@@ -41,7 +41,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .gradient-policy {
   font-size: 30px;
   letter-spacing: -0.72px;
@@ -52,7 +51,6 @@ body {
   font-weight: 600;
   text-align: center;
 }
-
 .hr-gradient {
   height: 5px;
   border: 0;
@@ -62,7 +60,7 @@ body {
 .link-button {
   background: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
   color: #fff;
-  padding: 10px 20px;
+  padding: 20px 30px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
