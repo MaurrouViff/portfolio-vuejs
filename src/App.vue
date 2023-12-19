@@ -1,33 +1,20 @@
 <template>
-  <div>
-    <header>
-      <div class="gradient-policy">
-        <h1>Bienvenue sur mon portfolio !</h1>
-      </div>
-      <nav class="navbar">
-        <ul class="nav-menu">
-          <li class="nav-item"><router-link to="/accueil" class="link-button">ACCUEIL</router-link></li>
-          <li class="nav-item"><router-link to="/langages" class="link-button">LANGAGES</router-link></li>
-          <li class="nav-item"><router-link to="/outils" class="link-button">OUTILS</router-link></li>
-          <li class="nav-item"><router-link to="/about" class="link-button">À PROPOS</router-link></li>
-        </ul>
-      </nav>
-
-
-    </header>
-    <hr class="hr-gradient">
-
-
+  <Header />
     <router-view></router-view>
 
 
 
-  </div>
+
 </template>
 
 <script>
-export default {
+import Header from "./components/header.vue";
 
+
+export default {
+  components: {
+    Header
+  }
 };
 </script>
 
@@ -41,6 +28,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+header {
+  display: flex;
+  background-color: black;
+}
 .gradient-policy {
   font-size: 30px;
   letter-spacing: -0.72px;
@@ -51,14 +42,7 @@ body {
   font-weight: 600;
   text-align: center;
 }
-.hr-gradient {
-  height: 5px;
-  border: 0;
-  background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
-  margin: 20px auto;
-}
 .link-button {
-  background: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
   color: #fff;
   padding: 20px 30px;
   border: none;
@@ -75,7 +59,7 @@ li {
   list-style-type: none;
 }
 .navbar {
-  min-height: 70px;
+  min-height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,5 +71,10 @@ li {
   align-items: center;
   gap: 60px;
   margin-right: 50px;
+}
+.hr-gradient {
+  height: 5px;
+  border: 0;
+  background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
 }
 </style>
