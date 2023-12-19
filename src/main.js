@@ -6,14 +6,16 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Accueil from './components/pages/Accueil.vue';
 import About from './components/pages/About.vue';
 import Outils from './components/pages/Outils.vue';
-import Langages from './components/pages/Langages.vue';
+import Projects from './components/pages/Projects.vue';
+import Contact from './components/pages/Contact.vue';
 
 const routes = [
     { path: '/', component: Accueil },
     { path: '/accueil', component: Accueil },
     { path: '/about', component: About },
     { path: '/outils', component: Outils },
-    { path: '/langages', component: Langages },
+    { path: '/projets', component: Projects },
+    { path: '/contact', component: Contact},
 ];
 
 const router = createRouter({
