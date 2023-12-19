@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="gradient-policy">
-      <h2>Voici quelques infos</h2>
-      <h2>sur moi</h2>
+      <h2>Bienvenue ! Je me nomme</h2>
+      <h3>AUBRIET Aurélien</h3>
     </div>
     <section class="main-section">
       <div class="features">
@@ -12,19 +12,15 @@
         </div>
         <div class="feature">
           <div class="feature-title"><img alt="image de développeur" class="image-icon" src="../../assets/images-icon/developer-icon.png">Développeur</div>
-          <div class="feature-text">J'apprends certains langages de programmation. Cliquez sur le bouton "<span style="color: red">LANGAGES</span>" pour voir la liste</div>
+          <div class="feature-text">J'apprends certains langages de programmation. Mon rêve est de devenir développeur.</div>
         </div>
         <div class="feature">
-          <div class="feature-title"><img src="../../assets/images-icon/tools-icon.png" alt="Image d'outils" class="image-icon">Mes outils</div>
-          <div class="feature-text">Cliquez sur "<span style="color: red">OUTILS</span>" pour voir les outils que j'utilise.</div>
+          <div class="feature-title"><img src="../../assets/images-icon/tools-icon.png" alt="Image d'outils" class="image-icon">Mes projects</div>
+          <div class="feature-text">J'ai fait de nombreux projets, n'hésitez pas à y regarder !</div>
         </div>
       </div>
     </section>
-    <hr class="hr-gradient">
-    <section class="second-section">
-      <div class="gradient-policy">Me contacter :</div>
 
-    </section>
   </div>
 </template>
 
@@ -38,17 +34,18 @@
   margin: 100px -180px 0 0;
   display: flex;
 }
-
 .features .feature {
   flex: 1 1 340px;
   background: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
   padding: 25px 30px 35px 58px;
   margin: 0 8px 0 0;
+  opacity: 0.9;
 }
-
-
+.features .feature:hover {
+opacity: 1;
+}
 .features .feature .feature-title {
-  font-size: 16px;
+  font-size: 24px;
   line-height: 1.6;
   letter-spacing: -0.38px;
   margin: 0 0 0 -35px;
@@ -57,7 +54,7 @@
   color: white;
 }
 .features .feature .feature-text {
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: -0.29px;
   color: white;
   line-height: 1.7;
@@ -74,15 +71,6 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 90px;
-
 }
-.second-section {
-  min-height: 60vh;
-  padding-top: 126px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 90px;
 
-}
 </style>
