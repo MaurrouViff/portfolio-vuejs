@@ -1,5 +1,5 @@
 <template>
-  <Header />
+  <HautDePage />
     <router-view></router-view>
 
 
@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import Header from "./components/header.vue";
+import HautDePage from "./components/header.vue";
 
 
 export default {
   components: {
-    Header
+    HautDePage
   }
 };
 </script>
@@ -42,36 +42,11 @@ header {
   font-weight: 600;
   text-align: center;
 }
-.link-button {
-  color: #fff;
-  padding: 20px 30px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  text-decoration: none;
-  opacity: 0.8;
-}
-.link-button:hover {
-  opacity: 1;
-}
+
 li {
   list-style-type: none;
 }
-.navbar {
-  min-height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
-}
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-  margin-right: 50px;
-}
+
 .hr-gradient {
   height: 5px;
   border: 0;
