@@ -14,3 +14,33 @@
     <hr class="hr-gradient" style="margin-top: -4px">
   </div>
 </template>
+
+<style scoped>
+.link-button {
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.link-button:hover {
+  opacity: 1;
+}
+.navbar {
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-right: 50px;
+}
+</style>
