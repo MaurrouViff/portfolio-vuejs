@@ -1,0 +1,18 @@
+{
+  "database_name": "portfolio-contact",
+  "tables": [
+    {
+      "table_name": "contact",
+      "columns": [
+        "lien_linkedin",
+        "adresse_mail"
+      ],
+      "data": [
+        {
+          "lien_linkedin": "N/A",
+          "adresse_mail": "aubriet.aurelien31082004@outlook.fr"
+        }
+      ]
+    }
+  ]
+}
