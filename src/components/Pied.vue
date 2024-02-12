@@ -8,9 +8,19 @@
 
 <style scoped>
 p {
-  color: black;
+  color: #ffffff;
+  margin: 0;
+}
+footer {
+  background-color: black;
+  min-height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 span {
+  font-size: 18px;
   color: red;
 }
 </style>
