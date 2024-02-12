@@ -1,19 +1,19 @@
 <template>
   <HautDePage />
+  <div class="container">
     <router-view></router-view>
-
-
-
-
+  </div>
+  <Pied />
 </template>
 
 <script>
 import HautDePage from "./components/header.vue";
-
+import Pied from "./components/Pied.vue";
 
 export default {
   components: {
-    HautDePage
+    HautDePage,
+    Pied
   }
 };
 </script>
@@ -24,23 +24,13 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: black;
   display: flex;
   flex-direction: column;
 }
-header {
-  display: flex;
-  background-color: black;
-}
-
-
 li {
   list-style-type: none;
 }
-
-.hr-gradient {
-  height: 5px;
-  border: 0;
-  background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
+.container {
+  flex-grow: 1;
 }
 </style>
