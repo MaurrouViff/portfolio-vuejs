@@ -13,20 +13,26 @@
         {
           "id": 1,
           "nom_project": "score_resto",
-          "langage": "PHP & SQL",
+          "langage": "PHP (POO) & SQL (en MVC)",
           "url": "https://github.com/MaurrouViff/score_resto"
         },
         {
           "id": 2,
-          "nom_project": "Roulette1-VueJS",
+          "nom_project": "Roulette-VueJS",
           "langage": "JavaScript (VueJS)",
           "url": "https://github.com/MaurrouViff/roulette-vuejs"
         },
         {
           "id": 3,
           "nom_project": "Roulette-PHP",
-          "langage": "PHP (Objet) & SQL",
+          "langage": "PHP (POO) & SQL (en MVC)",
           "url": "https://github.com/MaurrouViff/Projet-Roulette"
+        },
+        {
+          "id": 4,
+          "nom_project": "Projet Compétence",
+          "langage": "Framework JS (React)",
+          "url": "Lien compétence"
         }
       ]
     }
