@@ -4,13 +4,13 @@
     {
       "table_name": "contact",
       "columns": [
-        "lien_linkedin",
-        "adresse_mail"
+        "LinkedIn",
+        "Email"
       ],
       "data": [
         {
-          "lien_linkedin": "N/A",
-          "adresse_mail": "aubriet.aurelien31082004@outlook.fr"
+          "LinkedIn": "https://www.linkedin.com/in/aur%C3%A9lien-aubriet-32a7512b4/",
+          "Email": "aubriet.aurelien31082004@outlook.fr"
         }
       ]
     }
