@@ -27,9 +27,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-li {
-  list-style-type: none;
-}
 .container {
   flex-grow: 1;
 }
