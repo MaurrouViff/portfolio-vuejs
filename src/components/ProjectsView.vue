@@ -2,25 +2,25 @@
   <div>
     <div class="gradient-policy">Mes projets :</div><hr />
     <section class="main-section">
-      <h1>{{ getProjectName('score_resto') }}</h1>
+      <h1>Projet : <span>{{ getProjectName('score_resto') }}</span></h1>
       <img src="../assets/images-projects/images-score-resto.png" alt="Image de score_resto" class="photo">
-      <a :href="getProjectsUrl('score_resto')" class="link-to-page">Cliquez ici</a>
+      <a :href="getProjectsUrl('score_resto')" class="blue-btn">Cliquez ici</a>
       <h2>Voici les langages où ce projet est codé : <strong>{{ getProjectsLanguage('score_resto') }}</strong></h2>
 
 
     </section>
     <hr />
     <section class="second-section">
-      <h1>{{ getProjectName('Roulette-VueJS') }}</h1>
+      <h1>Projet : <span>{{ getProjectName('Roulette-VueJS') }}</span></h1>
       <img src="../assets/images-projects/images-roulette-vuejs.png" alt="Image Projet roulette VueJS" class="photo">
-      <a :href="getProjectsUrl('Roulette-VueJS')">Cliquez ici</a>
+      <a :href="getProjectsUrl('Roulette-VueJS')" class="blue-btn">Cliquez ici</a>
       <h2>Voici les langages où ce projet est codé : <strong>{{ getProjectsLanguage('Roulette-VueJS') }}</strong></h2>
     </section>
     <hr />
     <section class="third-section">
-      <h1>{{ getProjectName('Projet Compétence') }}</h1>
+      <h1>Projet : <span>{{ getProjectName('Projet Compétence') }}</span></h1>
       <img src="../assets/images-projects/images-competences.png" alt="Image projet compétence" class="photo">
-      <a :href="getProjectsUrl('Projet Compétence')">Cliquez ici</a>
+      <a :href="getProjectsUrl('Projet Compétence')" class="blue-btn">Cliquez ici</a>
       <h2>Voici les langages où ce projet est codé : <strong>{{ getProjectsLanguage('Projet Compétence') }}</strong></h2>
     </section>
   </div>
@@ -43,7 +43,7 @@ export default {
               {
                 "id": 1,
                 "nom_project": "score_resto",
-                "langage": "PHP (POO) & SQL (proejt en format MVC)",
+                "langage": "PHP (POO) & SQL (projet en format MVC)",
               },
               {
                 "id": 2,
@@ -99,7 +99,7 @@ export default {
   justify-content: center;
   padding-bottom: 90px;
   margin-top: -8px;
-
+  flex-direction: column;
 }
 .gradient-policy {
   font-size: 48px;
@@ -119,6 +119,23 @@ hr {
 }
 .photo {
   height: 20%;
-  width: 100%;
+  width: 50%;
+}
+.blue-btn {
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  opacity: 0.8;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.blue-btn:hover {
+  opacity: 1;
+}
+span {
+  color: red;
 }
 </style>
