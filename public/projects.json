@@ -33,12 +33,6 @@
           "nom_project": "Projet Compétence",
           "langage": "Framework JS (React)",
           "url": "Lien compétence"
-        },
-        {
-          "id": 5,
-          "nom_projet": "Salon Nuances",
-          "langage": "Framework JS (VueJS)",
-          "url": "https://salon-nuances.vercel.app/"
         }
       ]
     }
