@@ -22,7 +22,7 @@
 
 </script>
 <style scoped>
-.main-section {
+.main-section, .second-section, .third-section, .fourth-section {
   min-height: 60vh;
   padding-top: 126px;
   display: flex;
@@ -31,28 +31,5 @@
   padding-bottom: 90px;
   margin-top: -8px;
 }
-.second-section {
-  min-height: 60vh;
-  padding-top: 126px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 90px;
-}
-.third-section {
-  min-height: 60vh;
-  padding-top: 126px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 90px;
-}
-.fourth-section {
-  min-height: 60vh;
-  padding-top: 126px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 90px;
-}
+
 </style>
