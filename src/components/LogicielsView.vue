@@ -1,11 +1,12 @@
 <template>
-  <div>
+  <div id="corps">
+    <h1 id="important">Mes IDE :</h1>
     <section class="main-section">
       <a :href="getToolLink('PhpStorm')">
         <img src="../assets/images/PhpStorm_Icon.svg.png" alt="Image de PhpStorm" class="photo">
       </a>
       <h1>{{ getToolName('PhpStorm') }}</h1>
-      <div class="gradient-policy"></div>
+      <div class="gradient-policy">Cet IDE me permet de travailler sur différents langages comme :</div>
       <div class="gradient-policy">{{ getToolLanguage('PhpStorm') }}</div>
     </section>
     <section class="second-section">
@@ -13,7 +14,7 @@
         <img src="../assets/images/PyCharm_Icon.svg.png" alt="Image de PyCharm" class="photo">
       </a>
       <h1>{{ getToolName('PyCharm') }}</h1>
-      <div class="gradient-policy"></div>
+      <div class="gradient-policy">Cet IDE me permet de travailler sur différents langages comme :</div>
       <div class="gradient-policy">{{ getToolLanguage('PyCharm') }}</div>
     </section>
     <section class="third-section">
@@ -21,7 +22,7 @@
         <img src="../assets/images/IntelliJ_IDEA_Icon.svg.png" alt="Image d'IntelliJ IDEA" class="photo">
       </a>
       <h1>{{ getToolName('IntelliJ IDEA') }}</h1>
-      <div class="gradient-policy"></div>
+      <div class="gradient-policy">Cet IDE me permet de travailler sur différents langages comme :</div>
       <div class="gradient-policy">{{ getToolLanguage('IntelliJ IDEA') }}</div>
     </section>
   </div>
@@ -94,6 +95,11 @@ export default {
 </script>
 
 <style scoped>
+#corps {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
 .main-section, .second-section, .third-section {
   min-height: 60vh;
   padding-top: 126px;
@@ -110,6 +116,21 @@ export default {
 }
 h1 {
   color: red;
+  font-size: 32px;
+}
+#important {
+  color: red;
+  font-size: 48px;
+}
+.gradient-policy {
   font-size: 24px;
+  letter-spacing: -0.72px;
+  line-height: 1.3;
+  background: linear-gradient(45deg, #316aa4 33%, #7B6BB6 50%, #CE6CC9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 600;
+  text-align: center;
 }
 </style>
