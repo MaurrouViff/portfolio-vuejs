@@ -65,5 +65,7 @@ h1 {
   color: #ffffff;
   font-size: 32px;
 }
-
+.nav-item {
+  list-style-type: none;
+}
 </style>
