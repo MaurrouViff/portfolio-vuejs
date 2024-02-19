@@ -1,22 +1,94 @@
 <template>
-<div>
-<div class="gradient-policy"></div>
-  <section class="main-section">
-    <img src="../assets/images-projects/images-score-resto.png" alt="Image de score_resto" class="photo">
+  <div>
+    <div class="gradient-policy">Mes projets :</div><hr />
+    <section class="main-section">
+      <h1>{{ getProjectName('score_resto') }}</h1>
+      <img src="../assets/images-projects/images-score-resto.png" alt="Image de score_resto" class="photo">
+      <a :href="getProjectsUrl('score_resto')" class="link-to-page">Cliquez ici</a>
+      <h2>Voici les langages où ce projet est codé : <strong>{{ getProjectsLanguage('score_resto') }}</strong></h2>
 
-  </section>
-  <section class="second-section">
-    <img src="../assets/images-projects/images-roulette-vuejs.png" alt="Image Projet roulette VueJS" class="photo">
 
-  </section>
-  <section class="third-section">
-    <img src="../assets/images-projects/images-competences.png" alt="Image projet compétence" class="photo">
-
-  </section>
-</div>
+    </section>
+    <hr />
+    <section class="second-section">
+      <h1>{{ getProjectName('Roulette-VueJS') }}</h1>
+      <img src="../assets/images-projects/images-roulette-vuejs.png" alt="Image Projet roulette VueJS" class="photo">
+      <a :href="getProjectsUrl('Roulette-VueJS')">Cliquez ici</a>
+      <h2>Voici les langages où ce projet est codé : <strong>{{ getProjectsLanguage('Roulette-VueJS') }}</strong></h2>
+    </section>
+    <hr />
+    <section class="third-section">
+      <h1>{{ getProjectName('Projet Compétence') }}</h1>
+      <img src="../assets/images-projects/images-competences.png" alt="Image projet compétence" class="photo">
+      <a :href="getProjectsUrl('Projet Compétence')">Cliquez ici</a>
+      <h2>Voici les langages où ce projet est codé : <strong>{{ getProjectsLanguage('Projet Compétence') }}</strong></h2>
+    </section>
+  </div>
 </template>
 <script>
-
+export default {
+  data() {
+    return {
+      projectsData: {
+        "database_name": "Portfolio-project",
+        "tables": [
+          {
+            "table_name": "project",
+            "columns": [
+              "id",
+              "nom_project",
+              "langage"
+            ],
+            "data": [
+              {
+                "id": 1,
+                "nom_project": "score_resto",
+                "langage": "PHP (POO) & SQL (proejt en format MVC)",
+              },
+              {
+                "id": 2,
+                "nom_project": "Roulette-VueJS",
+                "langage": "JavaScript (VueJS)",
+              },
+              {
+                "id": 3,
+                "nom_project": "Projet Compétence",
+                "langage": "Framework JS (React)",
+              }
+            ]
+          }
+        ]
+      }
+    };
+  },
+  methods: {
+    getProjectName(projects) {
+      const projectData = this.projectsData.tables[0].data.find(item => item.nom_project === projects);
+      return projectData ? projectData.nom_project : '';
+    },
+    getProjectsLanguage(projects) {
+      const projectData = this.projectsData.tables[0].data.find(item => item.nom_project === projects);
+      return projectData ? projectData.langage : '';
+    },
+    getProjectsUrl(projects) {
+      const projectData = this.projectsData.tables[0].data.find(item => item.nom_project === projects);
+      if (projectData) {
+        switch (projects) {
+          case 'score_resto':
+            return 'https://github.com/MaurrouViff/score_resto';
+          case 'Projet Compétence':
+            return 'Lien vers projet compétence';
+          case 'Roulette-VueJS':
+            return 'https://github.com/MaurrouViff/roulette-vuejs';
+          default:
+            return '#';
+        }
+      } else {
+        return '#';
+      }
+    }
+  }
+}
 </script>
 <style scoped>
 .main-section, .second-section, .third-section {
@@ -30,7 +102,7 @@
 
 }
 .gradient-policy {
-  font-size: 24px;
+  font-size: 48px;
   letter-spacing: -0.72px;
   line-height: 1.3;
   background: linear-gradient(45deg, #316aa4 33%, #7B6BB6 50%, #CE6CC9);
@@ -39,5 +111,14 @@
 
   font-weight: 600;
   text-align: center;
+}
+hr {
+  height: 5px;
+  border: 0;
+  background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
+}
+.photo {
+  height: 20%;
+  width: 100%;
 }
 </style>
