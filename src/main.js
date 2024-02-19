@@ -7,6 +7,7 @@ import Accueil from './components/pages/Accueil.vue';
 import Outils from './components/pages/Outils.vue';
 import Projects from './components/pages/Projects.vue';
 import Contact from './components/pages/Contact.vue';
+import Cv from './components/pages/CV.vue';
 
 const routes = [
     { path: '/', component: Accueil },
@@ -14,6 +15,7 @@ const routes = [
     { path: '/outils', component: Outils },
     { path: '/projects', component: Projects },
     { path: '/contact', component: Contact},
+    { path: '/cv', component: Cv }
 ];
 
 const router = createRouter({

@@ -8,6 +8,7 @@
           <li class="nav-item"><router-link to="/projects" class="link-button">PROJETS</router-link></li>
           <li class="nav-item"><router-link to="/outils" class="link-button">LOGICIELS</router-link></li>
           <li class="nav-item"><router-link to="/contact" class="link-button">CONTACT</router-link></li>
+          <li class="nav-item"><router-link to="/cv" class="link-button">CV</router-link></li>
         </ul>
       </nav>
     </header>
