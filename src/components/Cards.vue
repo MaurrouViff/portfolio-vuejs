@@ -25,7 +25,6 @@
 <style scoped>
 .features {
   max-width: 1300px;
-  margin: 100px -180px 0 0;
   display: flex;
 }
 .features .feature {
