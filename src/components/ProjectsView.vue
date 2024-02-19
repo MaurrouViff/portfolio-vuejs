@@ -1,27 +1,25 @@
 <template>
   <div>
-    <div class="gradient-policy">Mes projets :</div><hr />
+    <div class="gradient-policy" id="font-size">Mes projets :</div><hr />
     <section class="main-section">
-      <h1>Projet : <span>{{ getProjectName('score_resto') }}</span></h1>
+      <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Score Resto') }}</span>
       <img src="../assets/images-projects/images-score-resto.png" alt="Image de score_resto" class="photo">
-      <a :href="getProjectsUrl('score_resto')" class="blue-btn">Cliquez ici</a>
-      <h2>Voici les langages où ce projet est codé : <strong>{{ getProjectsLanguage('score_resto') }}</strong></h2>
-
-
+      <a :href="getProjectsUrl('Score Resto')" class="blue-btn">Cliquez ici</a>
+      <div class="gradient-policy">Voici les langages où ce projet est codé :</div> <span>{{ getProjectsLanguage('Score Resto') }}</span>
     </section>
     <hr />
     <section class="second-section">
-      <h1>Projet : <span>{{ getProjectName('Roulette-VueJS') }}</span></h1>
+      <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Roulette-VueJS') }}</span>
       <img src="../assets/images-projects/images-roulette-vuejs.png" alt="Image Projet roulette VueJS" class="photo">
       <a :href="getProjectsUrl('Roulette-VueJS')" class="blue-btn">Cliquez ici</a>
-      <h2>Voici les langages où ce projet est codé : <strong>{{ getProjectsLanguage('Roulette-VueJS') }}</strong></h2>
+      <div class="gradient-policy">Voici les langages où ce projet est codé :</div> <span>{{ getProjectsLanguage('Roulette-VueJS') }}</span>
     </section>
     <hr />
     <section class="third-section">
-      <h1>Projet : <span>{{ getProjectName('Projet Compétence') }}</span></h1>
+      <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Projet Compétence') }}</span>
       <img src="../assets/images-projects/images-competences.png" alt="Image projet compétence" class="photo">
       <a :href="getProjectsUrl('Projet Compétence')" class="blue-btn">Cliquez ici</a>
-      <h2>Voici les langages où ce projet est codé : <strong>{{ getProjectsLanguage('Projet Compétence') }}</strong></h2>
+      <div class="gradient-policy">Voici les langages où ce projet est codé :</div> <span>{{ getProjectsLanguage('Projet Compétence') }}</span>
     </section>
   </div>
 </template>
@@ -42,18 +40,18 @@ export default {
             "data": [
               {
                 "id": 1,
-                "nom_project": "score_resto",
-                "langage": "PHP (POO) & SQL (projet en format MVC)",
+                "nom_project": "Score Resto",
+                "langage": "PHP (POO) & SQL (projet en format MVC)"
               },
               {
                 "id": 2,
                 "nom_project": "Roulette-VueJS",
-                "langage": "JavaScript (VueJS)",
+                "langage": "JavaScript (VueJS)"
               },
               {
                 "id": 3,
                 "nom_project": "Projet Compétence",
-                "langage": "Framework JS (React)",
+                "langage": "Framework JS (React)"
               }
             ]
           }
@@ -74,7 +72,7 @@ export default {
       const projectData = this.projectsData.tables[0].data.find(item => item.nom_project === projects);
       if (projectData) {
         switch (projects) {
-          case 'score_resto':
+          case 'Score Resto':
             return 'https://github.com/MaurrouViff/score_resto';
           case 'Projet Compétence':
             return 'Lien vers projet compétence';
@@ -91,7 +89,7 @@ export default {
 }
 </script>
 <style scoped>
-.main-section, .second-section, .third-section {
+.main-section {
   min-height: 60vh;
   padding-top: 126px;
   display: flex;
@@ -99,6 +97,15 @@ export default {
   justify-content: center;
   padding-bottom: 90px;
   margin-top: -8px;
+  flex-direction: column;
+}
+.second-section, .third-section {
+  min-height: 60vh;
+  padding-top: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
   flex-direction: column;
 }
 .gradient-policy {
@@ -137,5 +144,21 @@ hr {
 }
 span {
   color: red;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.gradient-policy {
+  font-size: 36px;
+  letter-spacing: -0.72px;
+  line-height: 1.3;
+  background: linear-gradient(45deg, #316aa4 33%, #7B6BB6 50%, #CE6CC9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 600;
+  text-align: center;
+}
+#font-size {
+  font-size: 48px;
 }
 </style>
