@@ -20,7 +20,6 @@ section {
   justify-content: center;
   padding-bottom: 90px;
   margin-top: -8px;
-
 }
 .cv {
   width: 50%;
