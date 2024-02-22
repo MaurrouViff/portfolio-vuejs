@@ -21,6 +21,12 @@
       <a :href="getProjectsUrl('Projet Compétence')" class="blue-btn">Cliquez ici</a>
       <div class="gradient-policy">Voici les langages où ce projet est codé :</div> <span>{{ getProjectsLanguage('Projet Compétence') }}</span>
     </section>
+    <section class="fourth-section">
+      <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Pomodoro') }}</span>
+      <img src="../assets/images-projects/" alt="Image du pomodoro" class="photo">
+      <a :href="getProjectsUrl('Pomodoro')">Cliquez ici</a>
+      <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Pomodoro') }}</span>
+    </section>
   </div>
 </template>
 <script>
@@ -52,6 +58,11 @@ export default {
                 "id": 3,
                 "nom_project": "Projet Compétence",
                 "langage": "Framework JS (React)"
+              },
+              {
+                "id": 4,
+                "nom_project": "Pomodoro",
+                "langage": "JavaScript (Vanilla)"
               }
             ]
           }
@@ -78,6 +89,8 @@ export default {
             return 'Lien vers projet compétence';
           case 'Roulette-VueJS':
             return 'https://github.com/MaurrouViff/roulette-vuejs';
+          case 'Pomodoro':
+            return 'Lien pomodoro;'
           default:
             return '#';
         }
@@ -99,7 +112,7 @@ export default {
   margin-top: -8px;
   flex-direction: column;
 }
-.second-section, .third-section {
+.second-section, .third-section, .fourth-section {
   min-height: 60vh;
   padding-top: 126px;
   display: flex;
@@ -109,7 +122,7 @@ export default {
   flex-direction: column;
 }
 .gradient-policy {
-  font-size: 48px;
+  font-size: 24px;
   letter-spacing: -0.72px;
   line-height: 1.3;
   background: linear-gradient(45deg, #316aa4 33%, #7B6BB6 50%, #CE6CC9);
