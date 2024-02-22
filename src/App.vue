@@ -8,7 +8,7 @@
 
 <script>
 import HautDePage from "./components/header.vue";
-import Pied from "./components/Pied.vue";
+import Pied from './components/Pied.vue';
 
 export default {
   components: {
@@ -27,6 +27,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .container {
   flex-grow: 1;
 }
