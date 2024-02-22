@@ -8,6 +8,8 @@ import Outils from './components/pages/Outils.vue';
 import Projects from './components/pages/Projects.vue';
 import Contact from './components/pages/Contact.vue';
 import Cv from './components/pages/CV.vue';
+import Competences from './components/pages/Competences.vue';
+
 
 const routes = [
     { path: '/', component: Accueil },
@@ -15,7 +17,8 @@ const routes = [
     { path: '/outils', component: Outils },
     { path: '/projects', component: Projects },
     { path: '/contact', component: Contact},
-    { path: '/cv', component: Cv }
+    { path: '/cv', component: Cv },
+    { path: '/competences', component: Competences }
 ];
 
 const router = createRouter({
