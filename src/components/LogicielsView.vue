@@ -58,11 +58,6 @@ export default {
               },
               {
                 "id": 3,
-                "nom_outils": "PyCharm",
-                "langage": "Python"
-              },
-              {
-                "id": 4,
                 "nom_outils": "Visual Studio",
                 "langage": "C# et C++"
               }
