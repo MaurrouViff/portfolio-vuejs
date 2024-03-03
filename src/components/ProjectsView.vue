@@ -4,28 +4,36 @@
     <section class="main-section">
       <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Score Resto') }}</span>
       <img src="../assets/images-projects/images-score-resto.png" alt="Image de score_resto" class="photo">
-      <a :href="getProjectsUrl('Score Resto')" class="blue-btn">Cliquez ici</a>
+      <router-link to="/scoreresto" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé :</div> <span>{{ getProjectsLanguage('Score Resto') }}</span>
     </section>
     <hr />
     <section class="second-section">
       <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Roulette-VueJS') }}</span>
       <img src="../assets/images-projects/images-roulette-vuejs.png" alt="Image Projet roulette VueJS" class="photo">
-      <a :href="getProjectsUrl('Roulette-VueJS')" class="blue-btn">Cliquez ici</a>
+      <router-link to="/roulette" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé :</div> <span>{{ getProjectsLanguage('Roulette-VueJS') }}</span>
     </section>
     <hr />
     <section class="third-section">
       <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Projet Compétence') }}</span>
       <img src="../assets/images-projects/images-competences.png" alt="Image projet compétence" class="photo">
-      <a :href="getProjectsUrl('Projet Compétence')" class="blue-btn">Cliquez ici</a>
+      <router-link to="/competences" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé :</div> <span>{{ getProjectsLanguage('Projet Compétence') }}</span>
     </section>
+    <hr>
     <section class="fourth-section">
       <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Pomodoro') }}</span>
       <img src="../assets/images-projects/" alt="Image du pomodoro" class="photo">
-      <a :href="getProjectsUrl('Pomodoro')">Cliquez ici</a>
+      <router-link to="/pomodoro" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Pomodoro') }}</span>
+    </section>
+    <hr>
+    <section class="fiveth-section">
+      <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Roulette-PHP') }}</span>
+      <img src="../assets/images-projects/" alt="Image de roulette php" class="photo">
+      <router-link to="/roulette-php" class="blue-btn">Cliquez ici</router-link>
+      <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Roulette-PHP') }}</span>
     </section>
   </div>
 </template>
@@ -63,6 +71,11 @@ export default {
                 "id": 4,
                 "nom_project": "Pomodoro",
                 "langage": "JavaScript (Vanilla)"
+              },
+              {
+                "id": 5,
+                "nom_projet": "Roulette-PHP",
+                "langage": "PHP"
               }
             ]
           }
@@ -78,25 +91,6 @@ export default {
     getProjectsLanguage(projects) {
       const projectData = this.projectsData.tables[0].data.find(item => item.nom_project === projects);
       return projectData ? projectData.langage : '';
-    },
-    getProjectsUrl(projects) {
-      const projectData = this.projectsData.tables[0].data.find(item => item.nom_project === projects);
-      if (projectData) {
-        switch (projects) {
-          case 'Score Resto':
-            return 'https://github.com/MaurrouViff/score_resto';
-          case 'Projet Compétence':
-            return 'Lien vers projet compétence';
-          case 'Roulette-VueJS':
-            return 'https://github.com/MaurrouViff/roulette-vuejs';
-          case 'Pomodoro':
-            return 'Lien pomodoro;'
-          default:
-            return '#';
-        }
-      } else {
-        return '#';
-      }
     }
   }
 }
@@ -112,7 +106,7 @@ export default {
   margin-top: -8px;
   flex-direction: column;
 }
-.second-section, .third-section, .fourth-section {
+.second-section, .third-section, .fourth-section, .fiveth-section {
   min-height: 60vh;
   padding-top: 126px;
   display: flex;
@@ -159,6 +153,7 @@ span {
   color: red;
   font-size: 24px;
   margin-bottom: 10px;
+  letter-spacing: -0.72px;
 }
 #font-size {
   font-size: 48px;
