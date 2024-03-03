@@ -11,6 +11,7 @@ import Cv from './components/pages/CV.vue';
 import Competences from './components/pages/Competences.vue';
 import Roulette from './components/pages/Roulette.vue';
 import ScoreResto from './components/pages/ScoreResto.vue';
+import Pomodoro from './components/pages/Pomodoro.vue';
 
 
 // Liste des routes
@@ -23,7 +24,8 @@ const routes = [
     { path: '/cv', component: Cv },
     { path: '/competences', component: Competences },
     { path: '/roulette', component: Roulette },
-    { path: '/scoreresto', component: ScoreResto }
+    { path: '/scoreresto', component: ScoreResto },
+    { path: '/pomodoro', component: Pomodoro }
 ];
 
 const router = createRouter({
