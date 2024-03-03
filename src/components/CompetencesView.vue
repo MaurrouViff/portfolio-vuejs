@@ -6,7 +6,6 @@
     <section class="main-section">
     <span>Espace de connexion</span>
     <img src="../assets/images-projects/subimages-project/competences/competence_screen_login.png" alt="Image de connexion" class="photo">
-
     </section>
     <hr class="hr-gradient">
     <section class="second-section">
