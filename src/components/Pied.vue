@@ -9,7 +9,6 @@
 <style scoped>
 p {
   color: #ffffff;
-  margin: 0;
 }
 footer {
   background-color: black;
