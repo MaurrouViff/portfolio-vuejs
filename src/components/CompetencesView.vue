@@ -4,19 +4,19 @@
     <div class="gradient-policy">Et de voir ses compétences, et en attribuer.</div>
     <hr class="hr-gradient">
     <section class="main-section">
-    <span>Espace de connexion</span>
-    <img src="../assets/images-projects/subimages-project/competences/competence_screen_login.png" alt="Image de connexion" class="photo">
+      <span>Espace de connexion</span>
+      <img src="../assets/images-projects/subimages-project/competences/competence_screen_login.png" alt="Image de connexion" class="photo">
     </section>
     <hr class="hr-gradient">
     <section class="second-section">
-    <span>Espace collaborateur</span>
-    <img src="../assets/images-projects/subimages-project/competences/competence_screen_collabo_1.png" alt="Première image de l'espace collabo" class="photo">
-    <img src="../assets/images-projects/subimages-project/competences/competence_screen_collabo_2.png" alt="Deuxième image de l'espace collabo" class="photo">
-    <img src="../assets/images-projects/subimages-project/competences/competence_screen_collabo_3.png" alt="Troisième image de l'espace collabo" class="photo">
+      <span>Espace collaborateur</span>
+      <img src="../assets/images-projects/subimages-project/competences/competence_screen_collabo_1.png" alt="Première image de l'espace collabo" class="photo">
+      <img src="../assets/images-projects/subimages-project/competences/competence_screen_collabo_2.png" alt="Deuxième image de l'espace collabo" class="photo">
+      <img src="../assets/images-projects/subimages-project/competences/competence_screen_collabo_3.png" alt="Troisième image de l'espace collabo" class="photo">
     </section>
     <hr class="hr-gradient">
     <section class="third-section">
-    <span>Espace RH</span>
+      <span>Espace RH</span>
       <img src="../assets/images-projects/subimages-project/competences/competence_screen_rh_1.png" alt="Première image de l'espace RH" class="photo">
       <img src="../assets/images-projects/subimages-project/competences/competence_screen_rh_2.png" alt="Deuxième image de l'espace RH" class="photo">
       <img src="../assets/images-projects/subimages-project/competences/competence_screen_rh_3.png" alt="Troisième image de l'espace RH" class="photo">
