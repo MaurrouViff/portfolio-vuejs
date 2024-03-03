@@ -9,8 +9,11 @@ import Projects from './components/pages/Projects.vue';
 import Contact from './components/pages/Contact.vue';
 import Cv from './components/pages/CV.vue';
 import Competences from './components/pages/Competences.vue';
+import Roulette from './components/pages/Roulette.vue';
+import ScoreResto from './components/pages/ScoreResto.vue';
 
 
+// Liste des routes
 const routes = [
     { path: '/', component: Accueil },
     { path: '/accueil', component: Accueil },
@@ -18,7 +21,9 @@ const routes = [
     { path: '/projects', component: Projects },
     { path: '/contact', component: Contact},
     { path: '/cv', component: Cv },
-    { path: '/competences', component: Competences }
+    { path: '/competences', component: Competences },
+    { path: '/roulette', component: Roulette },
+    { path: '/scoreresto', component: ScoreResto }
 ];
 
 const router = createRouter({
