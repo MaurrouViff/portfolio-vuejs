@@ -1,16 +1,14 @@
 <template>
   <div>
-    <RouletteView />
+    <ScoreRestoView />
   </div>
 </template>
 <script>
-import RouletteView from '../RouletteView.vue';
+import ScoreRestoView from "../ScoreRestoView.vue";
 
 export default {
   components: {
-    RouletteView
+    ScoreRestoView
   }
 }
-
-
 </script>
