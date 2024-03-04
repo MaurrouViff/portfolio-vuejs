@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="gradient-policy" id="font-size">Mes projets :</div><hr />
+    <div class="gradient-policy" id="font-size">Mes projets :</div><hr id="hr-auto" />
     <section class="main-section">
       <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Score Resto') }}</span>
       <img src="../assets/images-projects/images-score-resto.png" alt="Image de score_resto" class="photo">
@@ -74,7 +74,7 @@ export default {
               },
               {
                 "id": 5,
-                "nom_projet": "Roulette-PHP",
+                "nom_project": "Roulette-PHP",
                 "langage": "PHP"
               }
             ]
@@ -105,6 +105,7 @@ export default {
   padding-bottom: 90px;
   margin-top: -8px;
   flex-direction: column;
+  background-color: black;
 }
 .second-section, .third-section, .fourth-section, .fiveth-section {
   min-height: 60vh;
@@ -114,6 +115,7 @@ export default {
   justify-content: center;
   padding-bottom: 90px;
   flex-direction: column;
+  background-color: black;
 }
 .gradient-policy {
   font-size: 24px;
@@ -130,6 +132,7 @@ hr {
   height: 5px;
   border: 0;
   background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
+  margin-top: -20px;
 }
 .photo {
   height: 20%;
@@ -157,5 +160,8 @@ span {
 }
 #font-size {
   font-size: 48px;
+}
+#hr-auto {
+  margin-top: 0;
 }
 </style>
