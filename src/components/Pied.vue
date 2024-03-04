@@ -1,5 +1,6 @@
 <template>
   <div>
+    <hr>
     <footer>
       <p>Portfolio fait avec amour par <span>Aurélien</span></p>
     </footer>
@@ -21,5 +22,11 @@ footer {
 span {
   font-size: 18px;
   color: red;
+}
+hr {
+  height: 5px;
+  border: 0;
+  background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
+  margin-bottom: -0.5px;
 }
 </style>
