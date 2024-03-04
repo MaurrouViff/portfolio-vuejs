@@ -28,13 +28,6 @@
       <router-link to="/pomodoro" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Pomodoro') }}</span>
     </section>
-    <hr>
-    <section class="fiveth-section">
-      <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Roulette-PHP') }}</span>
-      <img src="../assets/images-projects/" alt="Image de roulette php" class="photo">
-      <router-link to="/roulette-php" class="blue-btn">Cliquez ici</router-link>
-      <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Roulette-PHP') }}</span>
-    </section>
   </div>
 </template>
 <script>
