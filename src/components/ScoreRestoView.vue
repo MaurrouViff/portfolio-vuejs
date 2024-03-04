@@ -4,8 +4,12 @@
     <div class="gradient-policy">De mettre des notes, des commentaires,</div><br />
     <div class="gradient-policy">Et de modifier son profil.</div>
     <hr />
-    <img src="../assets/images-projects/subimages-project" alt="Première image score resto" class="photo">
-    <br />
+    <section class="main-section">
+      <img src="../assets/images-projects/subimages-project/score-resto/Image-1.png" alt="Première image du projet score resto" class="photo">
+      <img src="../assets/images-projects/subimages-project/score-resto/Image-2.png" alt="Deuxième image du projet score resto" class="photo">
+      <img src="../assets/images-projects/subimages-project/score-resto/Image-3.png" alt="Troisième image du projet score resto" class="photo">
+      <img src="../assets/images-projects/subimages-project/score-resto/Image-4.png" alt="Quatrième image du projet score resto" class="photo">
+    </section>
   </div>
 </template>
 <style scoped>
@@ -14,7 +18,15 @@
   justify-content: center;
   justify-items: center;
 }
-
+.main-section {
+  min-height: 60vh;
+  padding-top: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+  flex-direction: column;
+}
 .gradient-policy {
   font-size: 34px;
   letter-spacing: -0.72px;
