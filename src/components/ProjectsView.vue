@@ -24,7 +24,7 @@
     <hr>
     <section class="fourth-section">
       <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Pomodoro') }}</span>
-      <img src="../assets/images-projects/" alt="Image du pomodoro" class="photo">
+      <img src="../assets/images-projects/Image-pomodoro.png" alt="Image du pomodoro" class="photo">
       <router-link to="/pomodoro" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Pomodoro') }}</span>
     </section>
