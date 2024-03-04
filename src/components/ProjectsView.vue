@@ -100,7 +100,7 @@ export default {
   flex-direction: column;
 
 }
-.second-section, .third-section, .fourth-section, .fiveth-section {
+.second-section, .third-section, .fourth-section {
   min-height: 60vh;
   padding-top: 126px;
   display: flex;
