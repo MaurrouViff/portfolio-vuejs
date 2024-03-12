@@ -17,7 +17,7 @@
     <hr>
     <section class="php-section">
       <div class="gradient-policy">Projet : </div> <span>{{ getProjectName('Roulette-PHP') }}</span>
-      <img src="../assets/images-projects/images-roulette-vuejs.png" alt="Image de projet roulette php" class="photo">
+      <img src="../assets/images-projects/subimages-project/roulette-php/premiere-roulette-php.png" alt="Image de projet roulette php" class="photo">
       <router-link to="/roulette-php" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Roulette-PHP') }}</span>
     </section>
@@ -28,12 +28,11 @@
       <router-link to="/competences" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé :</div> <span>{{ getProjectsLanguage('Projet Compétence') }}</span>
     </section>
-    <hr>
-    <section class="fourth-section">
-      <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Pomodoro') }}</span>
-      <img src="../assets/images-projects/Image-pomodoro.png" alt="Image du pomodoro" class="photo">
-      <router-link to="/pomodoro" class="blue-btn">Cliquez ici</router-link>
-      <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Pomodoro') }}</span>
+    <section class="third-section">
+      <div class="gradient-policy">Projet </div> <span>{{ getProjectName('Salon Nuances') }}</span>
+      <img src="../assets/images-projects/" alt="Image de salon nuances" class="photo">
+      <router-link to="/nuances" class="blue-btn">Cliquez ici</router-link>
+      <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Salon Nuances') }}</span>
     </section>
   </div>
 </template>
@@ -64,8 +63,8 @@ export default {
               },
               {
                 "id": 3,
-                "nom_projet": "Roulette-PHP",
-                "langage": "PHP Objet"
+                "nom_project": "Roulette-PHP",
+                "langage": "PHP Objet (MVC)"
               },
               {
                 "id": 4,
@@ -74,8 +73,8 @@ export default {
               },
               {
                 "id": 5,
-                "nom_project": "Pomodoro",
-                "langage": "JavaScript (Vanilla)"
+                "nom-project": "Salon Nuances",
+                "langage": "Framework JS (VueJS)"
               }
             ]
           }

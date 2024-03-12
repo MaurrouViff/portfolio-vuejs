@@ -4,25 +4,17 @@
     <div class="gradient-policy">De mettre des notes, de mettre absent</div><br />
     <div class="gradient-policy">Et de supprimer et ajouter des élèves et des classes</div>
     <hr />
-    <section>
+    <img src="../assets/images-projects/subimages-project/roulette-php/premiere-roulette-php.png" alt="Première photo de roulette php" class="photo">
+    <hr />
+    <img src="../assets/images-projects/subimages-project/roulette-php/seconde-roulette-php.png.png" alt="Deuxième photo de roulette php" class="photo">
 
-    </section>
   </div>
 </template>
 <style scoped>
 #corps {
   text-align: center;
+  justify-content: center;
   justify-items: center;
-  justify-content: center;
-}
-section {
-  min-height: 60vh;
-  padding-top: 126px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 90px;
-  flex-direction: column;
 }
 .gradient-policy {
   font-size: 34px;
@@ -35,8 +27,13 @@ section {
   font-weight: 600;
   text-align: center;
 }
-
-
+.photo {
+  width: 40%;
+  height: 40%;
+}
+hr {
+  height: 5px;
+  border: 0;
+  background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
+}
 </style>
-<script setup>
-</script>

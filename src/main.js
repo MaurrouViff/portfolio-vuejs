@@ -11,8 +11,8 @@ import Cv from './components/pages/CV.vue';
 import Competences from './components/pages/Competences.vue';
 import Roulette from './components/pages/Roulette.vue';
 import ScoreResto from './components/pages/ScoreResto.vue';
-import Pomodoro from './components/pages/Pomodoro.vue';
 import RoulettePhp from "./components/pages/RoulettePhp.vue";
+import SalonNuances from "./components/pages/SalonNuances.vue";
 
 // Liste des routes
 const routes = [
@@ -25,8 +25,8 @@ const routes = [
     { path: '/competences', component: Competences },
     { path: '/roulette', component: Roulette },
     { path: '/scoreresto', component: ScoreResto },
-    { path: '/pomodoro', component: Pomodoro },
-    { path: '/roulette-php', component: RoulettePhp }
+    { path: '/roulette-php', component: RoulettePhp },
+    { path: '/nuances', component: SalonNuances }
 ];
 
 const router = createRouter({
