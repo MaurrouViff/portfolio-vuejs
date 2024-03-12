@@ -14,6 +14,13 @@
       <router-link to="/roulette" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé :</div> <span>{{ getProjectsLanguage('Roulette-VueJS') }}</span>
     </section>
+    <hr>
+    <section class="php-section">
+      <div class="gradient-policy">Projet : </div> <span>{{ getProjectName('Roulette-PHP') }}</span>
+      <img src="../assets/images-projects/images-roulette-vuejs.png" alt="Image de projet roulette php" class="photo">
+      <router-link to="/roulette-php" class="blue-btn">Cliquez ici</router-link>
+      <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Roulette-PHP') }}</span>
+    </section>
     <hr />
     <section class="third-section">
       <div class="gradient-policy">Projet :</div> <span>{{ getProjectName('Projet Compétence') }}</span>
@@ -57,18 +64,18 @@ export default {
               },
               {
                 "id": 3,
+                "nom_projet": "Roulette-PHP",
+                "langage": "PHP Objet"
+              },
+              {
+                "id": 4,
                 "nom_project": "Projet Compétence",
                 "langage": "Framework JS (React)"
               },
               {
-                "id": 4,
+                "id": 5,
                 "nom_project": "Pomodoro",
                 "langage": "JavaScript (Vanilla)"
-              },
-              {
-                "id": 5,
-                "nom_project": "Roulette-PHP",
-                "langage": "PHP"
               }
             ]
           }
@@ -98,9 +105,8 @@ export default {
   padding-bottom: 90px;
   margin-top: -8px;
   flex-direction: column;
-
 }
-.second-section, .third-section, .fourth-section {
+.second-section, .third-section, .fourth-section, .php-section {
   min-height: 60vh;
   padding-top: 126px;
   display: flex;
