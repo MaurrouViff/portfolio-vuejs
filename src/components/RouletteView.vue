@@ -11,7 +11,7 @@
     <hr />
     <section>
       <div class="gradient-policy font-size">Compétences validées via ce projet :</div>
-      <img src="../assets/images/compétences-projet-roulette-1.png" alt="Image des compétences de roulette php" class="photo">
+      <a href="../assets/fichier/compétences-projet-roulette.pdf" download="compétences-projet-roulette.pdf" class="link-to-page">Télécharger les compétences</a>
     </section>
   </div>
 </template>
@@ -56,5 +56,13 @@ section {
 }
 .font-size {
   font-size: 24px;
+}
+
+.link-to-page {
+  color: red;
+  text-decoration: none;
+}
+.link-to-page:hover {
+  text-decoration: underline;
 }
 </style>

@@ -6,7 +6,7 @@
     <hr />
     <section>
       <div class="gradient-policy font-size">Compétences validées via ce projet :</div>
-      <img src="../assets/images/compétences-salon-nuances-1.png" alt="Image des compétences de roulette php" class="photo">
+      <a href="../assets/fichier/compétences-salon-nuances.pdf" download="compétences-salon-nuances.pdf" class="link-to-page">Télécharger les compétences</a>
     </section>
   </div>
 </template>
@@ -63,5 +63,13 @@ hr {
   border: 0;
   background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
   margin-top: 50px;
+}
+
+.link-to-page {
+  color: red;
+  text-decoration: none;
+}
+.link-to-page:hover {
+  text-decoration: underline;
 }
 </style>

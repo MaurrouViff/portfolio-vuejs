@@ -13,7 +13,7 @@
     <hr />
     <section class="section">
       <div class="gradient-policy font-size">Compétences validées via ce projet :</div>
-      <img src="../assets/images/compétences-score-resto-1.png" alt="Image des compétences du score resto" class="photo">
+      <a href="../assets/fichier/compétences-score-resto.pdf" download="compétences-score-resto.pdf" class="link-to-page">Télécharger les compétences</a>
     </section>
   </div>
 </template>
@@ -64,6 +64,12 @@ hr {
   padding-bottom: 90px;
   flex-direction: column;
 }
+
+.link-to-page {
+  color: red;
+  text-decoration: none;
+}
+.link-to-page:hover {
+  text-decoration: underline;
+}
 </style>
-<script setup>
-</script>

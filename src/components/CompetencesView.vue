@@ -26,7 +26,7 @@
     <hr class="hr-gradient">
     <section class="third-section">
       <div class="gradient-policy font-size">Compétences validées via ce projet :</div>
-      <img src="../assets/images/compétences-projet-competences-1.png" alt="Image des compétences de roulette php" class="photo">
+      <a href="../assets/fichier/compétences-projet-competences.pdf" download="compétences-projet-competences.pdf" class="link-to-page">Télécharger les compétences</a>
     </section>
   </div>
 </template>
