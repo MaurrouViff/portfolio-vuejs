@@ -27,10 +27,6 @@ section {
   margin-top: -8px;
   flex-direction: column;
 }
-.photo {
-  width: 40%;
-  height: 40%;
-}
 .gradient-policy {
   font-size: 34px;
   letter-spacing: -0.72px;
