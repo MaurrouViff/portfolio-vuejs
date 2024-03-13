@@ -3,9 +3,9 @@
     <section>
       <div class="gradient-policy">Mes attestations de stage de BTS SIO</div>
       <div class="gradient-policy">Ma première : </div>
-      <img src="../assets/images/stage-premiere-annee.jpg" alt="Image de ma première attestation" class="photo">
+      <a href="../assets/fichier/stage-premiere-annee.pdf" download="stage-premiere-annee.pdf" class="link-to-page">Télécharger les compétences</a>
       <div class="gradient-policy">Seconde année :</div>
-      <img src="../assets/images/stage-seconde-annee.jpg" alt="Image de ma seconde attestation" class="photo">
+      <a href="../assets/fichier/stage-seconde-annee.pdf" download="stage-seconde-annee.pdf" class="link-to-page">Télécharger les compétences</a>
     </section>
     <hr />
   </div>
@@ -47,7 +47,13 @@ hr {
   border: 0;
   background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
 }
-
+.link-to-page {
+  color: red;
+  text-decoration: none;
+}
+.link-to-page:hover {
+  text-decoration: underline;
+}
 </style>
 <script setup>
 </script>
