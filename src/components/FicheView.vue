@@ -55,5 +55,3 @@ hr {
   text-decoration: underline;
 }
 </style>
-<script setup>
-</script>
