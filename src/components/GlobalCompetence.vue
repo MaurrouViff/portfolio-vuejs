@@ -1,7 +1,9 @@
 <template>
   <div id="corps">
     <div class="gradient-policy">Mes compétences global : </div>
-    <img src="../assets/images/Tableau%20E4%20de%20%2022AUBRIET%20%20(1)-1.png" alt="Image de mes compétences globales" class="photo">
+    <a href="../assets/fichier/compétences-global.pdf" download="compétences-global.pdf" class="link-to-page">Télécharger les compétences</a>
+
+
   </div>
 </template>
 <style scoped>
@@ -22,8 +24,11 @@
   text-align: center;
 }
 
-.photo {
-  width: 60%;
-  height: 60%;
+.link-to-page {
+  color: red;
+  text-decoration: none;
+}
+.link-to-page:hover {
+  text-decoration: underline;
 }
 </style>
