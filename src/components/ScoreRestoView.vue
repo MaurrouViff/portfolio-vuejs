@@ -13,7 +13,7 @@
     <hr />
     <section class="section">
       <div class="gradient-policy font-size">Compétences validées via ce projet :</div>
-      <a href="../assets/fichier/compétences-score-resto.pdf" download="compétences-score-resto.pdf" class="link-to-page">Télécharger les compétences</a>
+      <a href="/competences-score-resto.pdf" class="link-to-page">Télécharger les compétences</a>
     </section>
   </div>
 </template>

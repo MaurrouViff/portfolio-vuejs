@@ -6,7 +6,7 @@
     <hr />
     <section>
       <div class="gradient-policy font-size">Compétences validées via ce projet :</div>
-      <a href="../assets/fichier/compétences-salon-nuances.pdf" download="compétences-salon-nuances.pdf" class="link-to-page">Télécharger les compétences</a>
+      <a href="/competences-salon-nuances.pdf" class="link-to-page">Télécharger les compétences</a>
     </section>
   </div>
 </template>
