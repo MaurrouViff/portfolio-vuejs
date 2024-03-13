@@ -23,7 +23,11 @@
       <img src="../assets/images-projects/subimages-project/competences/competence_screen_rh_4.png" alt="Quatième image de l'espace RH" class="photo">
       <img src="../assets/images-projects/subimages-project/competences/competence_screen_rh_5.png" alt="Cinquième image de l'espace RH" class="photo">
     </section>
-
+    <hr class="hr-gradient">
+    <section class="third-section">
+      <div class="gradient-policy font-size">Compétences validées via ce projet :</div>
+      <img src="../assets/images/compétences-projet-competences-1.png" alt="Image des compétences de roulette php" class="photo">
+    </section>
   </div>
 </template>
 <style scoped>
@@ -82,3 +86,5 @@ span {
   margin-bottom: 20px;
 }
 </style>
+<script setup>
+</script>

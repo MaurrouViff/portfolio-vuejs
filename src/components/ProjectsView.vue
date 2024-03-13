@@ -28,9 +28,10 @@
       <router-link to="/competences" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé :</div> <span>{{ getProjectsLanguage('Projet Compétence') }}</span>
     </section>
+    <hr />
     <section class="third-section">
       <div class="gradient-policy">Projet </div> <span>{{ getProjectName('Salon Nuances') }}</span>
-      <img src="../assets/images-projects/" alt="Image de salon nuances" class="photo">
+      <img src="../assets/images-projects/Salon-nuances.png" alt="Image de salon nuances" class="photo">
       <router-link to="/nuances" class="blue-btn">Cliquez ici</router-link>
       <div class="gradient-policy">Voici les langages où ce projet est codé : </div> <span>{{ getProjectsLanguage('Salon Nuances') }}</span>
     </section>
@@ -73,7 +74,7 @@ export default {
               },
               {
                 "id": 5,
-                "nom-project": "Salon Nuances",
+                "nom_project": "Salon Nuances",
                 "langage": "Framework JS (VueJS)"
               }
             ]
@@ -105,7 +106,7 @@ export default {
   margin-top: -8px;
   flex-direction: column;
 }
-.second-section, .third-section, .fourth-section, .php-section {
+.second-section, .third-section, .php-section {
   min-height: 60vh;
   padding-top: 126px;
   display: flex;

@@ -7,8 +7,13 @@
     <img src="../assets/images-projects/subimages-project/roulette-php/premiere-roulette-php.png" alt="Première photo de roulette php" class="photo">
     <hr />
     <img src="../assets/images-projects/subimages-project/roulette-php/seconde-roulette-php.png.png" alt="Deuxième photo de roulette php" class="photo">
-
+    <hr />
+    <section>
+    <div class="gradient-policy font-size">Compétences validées via ce projet :</div>
+      <img src="../assets/images/compétences-projet-roulette-1.png" alt="Image des compétences de roulette php" class="photo">
+    </section>
   </div>
+
 </template>
 <style scoped>
 #corps {
@@ -27,13 +32,28 @@
   font-weight: 600;
   text-align: center;
 }
-.photo {
-  width: 40%;
-  height: 40%;
-}
+
 hr {
   height: 5px;
   border: 0;
   background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
 }
+section {
+  min-height: 60vh;
+  padding-top: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+  flex-direction: column;
+}
+.photo {
+  width: 40%;
+  height: 40%;
+}
+.font-size {
+  font-size: 24px;
+}
 </style>
+<script setup>
+</script>

@@ -1,13 +1,14 @@
 <template>
-<div id="corps">
-  <div class="gradient-policy font-size">Mes différentes fiches : </div>
-  <hr />
-  <section>
-    <div class="gradient-policy">Mon CV :</div>
-    <img src="../assets/cv/AUBRIET-Aurélien-CV-2024%20-%20Copie-1.png" alt="Image de mon CV" class="cv">
-  </section>
-  <hr />
-</div>
+  <div id="corps">
+    <section>
+      <div class="gradient-policy">Mes attestations de stage de BTS SIO</div>
+      <div class="gradient-policy">Ma première : </div>
+      <img src="../assets/images/stage-premiere-annee.jpg" alt="Image de ma première attestation" class="photo">
+      <div class="gradient-policy">Seconde année :</div>
+      <img src="../assets/images/stage-seconde-annee.jpg" alt="Image de ma seconde attestation" class="photo">
+    </section>
+    <hr />
+  </div>
 </template>
 
 <style scoped>
@@ -26,9 +27,9 @@ section {
   margin-top: -8px;
   flex-direction: column;
 }
-.cv {
-  width: 50%;
-  height: 50%;
+.photo {
+  width: 40%;
+  height: 40%;
 }
 .gradient-policy {
   font-size: 34px;
@@ -46,9 +47,7 @@ hr {
   border: 0;
   background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
 }
-.font-size {
-  font-size: 48px;
-}
+
 </style>
 <script setup>
 </script>

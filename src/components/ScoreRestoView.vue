@@ -10,6 +10,11 @@
       <img src="../assets/images-projects/subimages-project/score-resto/Image-3.png" alt="Troisième image du projet score resto" class="photo">
       <img src="../assets/images-projects/subimages-project/score-resto/Image-4.png" alt="Quatrième image du projet score resto" class="photo">
     </section>
+    <hr />
+    <section class="section">
+      <div class="gradient-policy font-size">Compétences validées via ce projet :</div>
+      <img src="../assets/images/compétences-score-resto-1.png" alt="Image des compétences du score resto" class="photo">
+    </section>
   </div>
 </template>
 <style scoped>
@@ -49,4 +54,16 @@ hr {
   border: 0;
   background-image: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
 }
+
+.section {
+  min-height: 30vh;
+  padding-top: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+  flex-direction: column;
+}
 </style>
+<script setup>
+</script>
