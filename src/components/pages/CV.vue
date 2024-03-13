@@ -4,6 +4,7 @@
   <FicheView />
 </div>
 </template>
+
 <script>
 import CVView from "../CVView.vue";
 import FicheView from "../FicheView.vue";
@@ -15,6 +16,3 @@ export default {
   }
 };
 </script>
-<style>
-
-</style>
