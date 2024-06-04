@@ -1,7 +1,7 @@
 <template>
   <div id="corps">
     <div class="gradient-policy">Mes compétences global : </div>
-    <a href="/global-compt.pdf" class="link-to-page">Télécharger les compétences</a>
+    <a href="/global-compt.pdf" class="link-to-page">Regarder les compétences</a>
   </div>
 </template>
 <style scoped>

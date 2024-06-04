@@ -3,6 +3,7 @@
     <div class="gradient-policy">Ce projet permet de tirer au hasard des élèves</div><br />
     <div class="gradient-policy">De mettre des notes, de mettre absent</div><br />
     <div class="gradient-policy">Et de supprimer et ajouter des élèves et des classes</div>
+    <div class="gradient-policy">Voici le lien github : </div><a href="https://github.com/MaurrouViff/Projet-Roulette" class="link-to-page">Cliquez ici</a>
     <hr />
     <img src="../assets/images-projects/subimages-project/roulette-php/premiere-roulette-php.png" alt="Première photo de roulette php" class="photo">
     <hr />

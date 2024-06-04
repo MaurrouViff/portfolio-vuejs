@@ -3,6 +3,8 @@
     <div class="gradient-policy">Ce projet permet de visiter des restaurants,</div><br />
     <div class="gradient-policy">De mettre des notes, des commentaires,</div><br />
     <div class="gradient-policy">Et de modifier son profil.</div>
+    <div class="gradient-policy">Voici le lien github : </div>
+    <a href="https://github.com/MaurrouViff/score_resto" class="link-to-page">Cliquez ici</a>
     <hr />
     <section class="main-section">
       <img src="../assets/images-projects/subimages-project/score-resto/Image-1.png" alt="Première image du projet score resto" class="photo">

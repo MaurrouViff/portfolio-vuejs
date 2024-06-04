@@ -2,6 +2,7 @@
   <div id="corps">
     <div class="gradient-policy">Ce projet permet de sélectionner un élève dans une classe,</div><br />
     <div class="gradient-policy">et permet de mettre une note et de marquer son passage.</div>
+    <div class="gradient-policy">Voici le lien github : </div><a href="https://github.com/MaurrouViff/score_resto" class="link-to-page">Cliquez ici</a>
     <hr />
     <img src="../assets/images-projects/subimages-project/roulette-vuejs/roulette_vuejs_screen_1.png" alt="Première image du projet roulette vuejs" class="photo">
     <hr />

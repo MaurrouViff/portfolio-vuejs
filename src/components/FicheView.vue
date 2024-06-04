@@ -3,9 +3,9 @@
     <section>
       <div class="gradient-policy">Mes attestations de stage de BTS SIO</div>
       <div class="gradient-policy">Ma première : </div>
-      <a href="/stage-premiere-annee.pdf" class="link-to-page">Télécharger les compétences</a>
+      <a href="/stage-premiere-annee.pdf" class="link-to-page">Regarder les compétences</a>
       <div class="gradient-policy">Seconde année :</div>
-      <a href="/stage-seconde-annee.pdf" class="link-to-page">Télécharger les compétences</a>
+      <a href="/stage-seconde-annee.pdf" class="link-to-page">Regarder les compétences</a>
     </section>
     <hr />
   </div>

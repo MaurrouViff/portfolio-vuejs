@@ -151,7 +151,7 @@ hr {
   opacity: 1;
 }
 span {
-  color: red;
+  color: #ff0000;
   font-size: 24px;
   margin-bottom: 10px;
   letter-spacing: -0.72px;
