@@ -1,7 +1,6 @@
 <template>
 <div>
   <CVView />
-  <FicheView />
 </div>
 </template>
 
@@ -11,8 +10,7 @@ import FicheView from "../FicheView.vue";
 
 export default {
   components: {
-    CVView,
-    FicheView
+    CVView
   }
 };
 </script>
