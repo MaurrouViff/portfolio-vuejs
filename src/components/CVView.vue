@@ -4,7 +4,7 @@
   <hr />
   <section>
     <div class="gradient-policy">Mon CV :</div>
-    <img src="../assets/cv/AUBRIET-Aurélien-2024-CV-1.png" alt="Image de mon CV" class="cv">
+    <img src="../assets/cv/CV_Aurélien_AUBRIET-1.png" alt="Image de mon CV" class="cv">
   </section>
   <hr />
 </div>
