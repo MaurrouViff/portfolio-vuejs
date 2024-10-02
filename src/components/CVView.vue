@@ -1,7 +1,5 @@
 <template>
 <div id="corps">
-  <div class="gradient-policy font-size">Mes différentes fiches : </div>
-  <hr />
   <section>
     <div class="gradient-policy">Mon CV :</div>
     <img src="../assets/cv/CV_Aurélien_AUBRIET-1.png" alt="Image de mon CV" class="cv">
