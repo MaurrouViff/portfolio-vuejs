@@ -4,7 +4,7 @@
       <div class="features">
         <div class="feature">
           <div class="feature-title"><img alt="image d'étudiant" class="image-icon" src="../assets/images-icon/student-icon.png">Étudiant</div>
-          <div class="feature-text">Je suis actuellement étudiant en BTS Sio spécialité SLAM !</div>
+          <div class="feature-text">Je suis actuellement étudiant à l'école <a href="https://www.esgi.fr/">ESGI</a> en ingénierie du web</div>
         </div>
         <div class="feature">
           <div class="feature-title"><img alt="image de développeur" class="image-icon" src="../assets/images-icon/developer-icon.png">Développeur</div>
@@ -70,5 +70,12 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 90px;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 </style>
