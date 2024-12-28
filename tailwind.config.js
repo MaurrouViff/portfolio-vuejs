@@ -4,6 +4,7 @@ module.exports = {
     "./src/**/*.{js,vue,ts}",
     "./src/**/*.vue",
     "./src/App.vue",
+    "index.html",
   ],
   theme: {
     extend: {},

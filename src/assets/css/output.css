@@ -554,8 +554,29 @@ video {
   display: none;
 }
 
+.flex {
+  display: flex;
+}
+
+.min-h-28 {
+  min-height: 7rem;
+}
+
 .flex-grow {
   flex-grow: 1;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
 }
 
 body {
