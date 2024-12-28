@@ -1,34 +1,14 @@
 <template>
-  <HautDePage />
-  <div class="container">
-    <router-view></router-view>
+  <Navbar/>
+  <div class="flex-grow">
+  <router-view></router-view>
   </div>
-  <Pied />
+
 </template>
 
-<script>
-import HautDePage from "./components/header.vue";
-import Pied from './components/Pied.vue';
+<script setup>
 
-export default {
-  components: {
-    HautDePage,
-    Pied
-  }
-};
+import Navbar from "@/components/Navbar.vue";
 </script>
 
-<style>
 
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.container {
-  flex-grow: 1;
-}
-</style>
