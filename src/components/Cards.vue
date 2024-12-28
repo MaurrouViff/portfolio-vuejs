@@ -6,9 +6,9 @@
         <div class="bg-white shadow-lg rounded-lg m-2 p-2 tablet:m-3 laptop:m-4 desktop:m-5">
           <div class="p-3 tablet:p-2 laptop:p-2.5 desktop:p-3">
             <img src="/contact-img.png" alt="Image de contact">
-            <h3 class="text-lg font-bold text-gray-800 mt-3">Titre de la Carte</h3>
+            <h3 class="text-lg font-bold text-gray-800 mt-3">Contact</h3>
             <p class="text-gray-600 mt-2">
-              Ceci est un exemple de texte pour une carte. Vous pouvez ajouter une description plus détaillée ici.
+              N'hésiter à me contacter pour me poser des questions !
             </p>
           </div>
         </div>
