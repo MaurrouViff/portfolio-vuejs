@@ -796,6 +796,10 @@ video {
   outline-color: #8b5cf6;
 }
 
+.outline-pink-500 {
+  outline-color: #ec4899;
+}
+
 .transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

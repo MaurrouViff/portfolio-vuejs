@@ -12,6 +12,9 @@
         <li class="list-none">
           <router-link to="/outils" class="bg-white desktop:text-xl laptop:text-lg tablet:text-base text-sm desktop:py-3 desktop:px-6 laptop:py-2.5 laptop:px-5 tablet:py-2 tablet:px-4 py-1.5 px-3 rounded outline outline-4 outline-offset-0 outline-violet-500 hover:bg-slate-500 hover:text-white transition-colors duration-300">Outils</router-link>
         </li>
+        <li class="list-none">
+          <router-link to="/about" class="bg-white desktop:text-xl laptop:text-lg tablet:text-base text-sm desktop:py-3 desktop:px-6 laptop:py-2.5 laptop:px-5 tablet:py-2 tablet:px-4 py-1.5 px-3 rounded outline outline-4 outline-offset-0 outline-pink-500 hover:bg-slate-500 hover:text-white transition-colors duration-300">À propos</router-link>
+        </li>
       </ul>
     </nav>
   </header>
