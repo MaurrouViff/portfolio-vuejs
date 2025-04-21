@@ -1,9 +1,10 @@
 <script setup>
 
+import ContactReader from "@/components/ContactReader.vue";
 </script>
 
 <template>
-<div>
-
-</div>
+  <div>
+    <ContactReader/>
+  </div>
 </template>
