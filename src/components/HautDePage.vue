@@ -41,6 +41,7 @@ const toggleMenu = () => {
         <li><router-link to="/outils" class="nav-link w-full">Outils</router-link></li>
         <li><router-link to="/a-propos" class="nav-link w-full">À propos</router-link></li>
       </ul>
+      <hr class="border-0 bg-black h-2.5">
     </header>
   </div>
 </template>
