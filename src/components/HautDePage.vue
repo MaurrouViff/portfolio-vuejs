@@ -28,8 +28,7 @@ const toggleMenu = () => {
           <li><router-link to="/accueil" class="nav-link">Accueil</router-link></li>
           <li><router-link to="/contact" class="nav-link">Contact</router-link></li>
           <li><router-link to="/programmation" class="nav-link">Langages</router-link></li>
-          <li><router-link to="/outils" class="nav-link">Outils</router-link></li>
-          <li><router-link to="/a-propos" class="nav-link">À propos</router-link></li>
+          <li><router-link to="/projets" class="nav-link">Projets</router-link></li>
         </ul>
       </nav>
 
@@ -38,8 +37,7 @@ const toggleMenu = () => {
         <li><router-link to="/accueil" class="nav-link w-full">Accueil</router-link></li>
         <li><router-link to="/contact" class="nav-link w-full">Contact</router-link></li>
         <li><router-link to="/langages" class="nav-link w-full">Langages</router-link></li>
-        <li><router-link to="/outils" class="nav-link w-full">Outils</router-link></li>
-        <li><router-link to="/a-propos" class="nav-link w-full">À propos</router-link></li>
+        <li><router-link to="/projets" class="nav-link w-full">Projets</router-link></li>
       </ul>
       <hr class="border-0 bg-black h-2.5">
     </header>
@@ -48,6 +46,6 @@ const toggleMenu = () => {
 
 <style scoped>
 .nav-link {
-  @apply rounded outline-2 outline-offset-0 outline-black px-4 py-2 hover:bg-black hover:text-white transition duration-300;
+  @apply rounded outline-2 outline-offset-0 outline-black px-4 py-2 hover:bg-black hover:underline hover:text-white transition duration-300;
 }
 </style>
